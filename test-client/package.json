@@ -12,6 +12,9 @@
   "dependencies": {
     "lib-client": "*"
   },
+  "scripts": {
+    "build": "ender build"
+  },
   "devDependencies": {},
   "optionalDependencies": {}
 }

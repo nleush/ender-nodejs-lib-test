@@ -12,6 +12,9 @@
   "dependencies": {
     "lib-server": "*"
   },
+  "scripts": {
+    "start": "node main.js"
+  },
   "devDependencies": {},
   "optionalDependencies": {},
   "main": "main.js"

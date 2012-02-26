@@ -1,5 +1,5 @@
 !function() {
-    var common = require("common-lib");
+    var common = require("lib-common");
 
     exports.doWork = function() {
         common.commonFunction(function(data) {

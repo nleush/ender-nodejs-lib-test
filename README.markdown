@@ -1,10 +1,10 @@
 # Packages description
 
-_lib-common_ - common functionality for server and client
+**lib-common** - common functionality for server and client
 
-_lib-server_, _lib-client_ - server and client side implementation with lib-common using
+**lib-server**, **lib-client** - server and client side implementation with lib-common using
 
-_test-serever_, _test-client_ - server and client side lib consumers
+**test-serever**, **test-client** - server and client side lib consumers
  
 # Install
 
@@ -48,3 +48,6 @@ _test-serever_, _test-client_ - server and client side lib consumers
 Open `/test-client/test.html` in your browser.
 
 ## Run server test
+
+    cd test-server
+    node main.js
