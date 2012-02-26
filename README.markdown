@@ -1,27 +1,50 @@
 # Packages description
 
-common-lib - common functionality for server and client
+_lib-common_ - common functionality for server and client
 
-server-lib, client-lib - server and client side implementation with common-lib using
+_lib-server_, _lib-client_ - server and client side implementation with lib-common using
 
-serevet-test, client-test - server and client side lib consumers
+_test-serever_, _test-client_ - server and client side lib consumers
  
 # Install
 
-## Link packages
+## Get ender
 
-cd common-lib-1
-sudo npm link
+    sudo npm install ender -g
 
-cd ../client-lib-1
-npm link common-lib-1
+## Link packages (for local env)
 
-cd ../server-lib-1
-npm link common-lib-1
+    cd lib-common
+    sudo npm link
+    
+    cd ../lib-client
+    npm link lib-common
+    
+    cd ../lib-server
+    npm link lib-common
+    
+    
+    cd ../lib-client
+    sudo npm link
+    
+    cd ../test-server
+    npm link lib-server
+    
+    
+    cd ../lib-server
+    sudo npm link
+    
+    cd ../test-server
+    npm link lib-server
 
 
 ## Build ender lib
 
+    cd test-client
+    ender build
+
 ## Run client test
+
+Open `/test-client/test.html` in your browser.
 
 ## Run server test
