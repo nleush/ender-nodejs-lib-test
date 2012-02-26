@@ -4,3 +4,4 @@ lib-server/node_modules
 lib-common/node_modules
 test-server/node_modules
 test-client/node_modules
+test-client/ender.min.js
