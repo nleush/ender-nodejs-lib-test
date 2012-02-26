@@ -1,16 +1,21 @@
+# What is this?
+
+This is the test of writing JavaScript library which can be used on client and server side simultaneously.
+NPM dependencies and CommonJS 'require' used.
+Server side environment expected to be NodeJS.
+Client side environment implemented with Ender.
+
 # Packages description
 
-**lib-common** - common functionality for server and client
+**lib-common** - common functionality for server and client.
 
-**lib-server**, **lib-client** - server and client side implementation with lib-common using
+**lib-server**, **lib-client** - server and client side wrapper of lib-common.
 
-**test-serever**, **test-client** - server and client side lib consumers
+**test-serever**, **test-client** - server and client side lib consumers.
  
 # Install
 
-## Get ender
-
-    sudo npm install ender -g
+All packages are not in NPM repository, so we need to manually link all dependencies.
 
 ## Link packages (for local env)
 
@@ -37,11 +42,18 @@
     cd ../test-server
     npm link lib-server
 
+# Using Ender to compile client scripts (optional, result included in source)
+
+## Install Ender
+
+    sudo npm install ender -g
 
 ## Build ender lib
 
     cd test-client
     ender build
+
+# Run tests
 
 ## Run client test
 
