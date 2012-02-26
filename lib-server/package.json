@@ -1,6 +1,6 @@
 {
   "author": "",
-  "name": "client-lib",
+  "name": "lib-server",
   "version": "0.0.0",
   "repository": {
     "url": ""
@@ -9,10 +9,7 @@
     "node": "~0.6.9"
   },
   "dependencies": {
-    "common-lib"   :  "*"
-  },
-  "scripts": {
-    "build": "ender build"
+    "lib-common"   :  "*"
   },
   "devDependencies": {},
   "optionalDependencies": {},

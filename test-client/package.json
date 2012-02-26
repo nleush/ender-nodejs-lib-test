@@ -1,6 +1,6 @@
 {
   "author": "",
-  "name": "common-lib",
+  "name": "test-client",
   "version": "0.0.0",
   "repository": {
     "type": "git",
@@ -9,8 +9,9 @@
   "engines": {
     "node": "~0.6.9"
   },
-  "dependencies": {},
+  "dependencies": {
+    "lib-client": "*"
+  },
   "devDependencies": {},
-  "optionalDependencies": {},
-  "main": "main.js"
+  "optionalDependencies": {}
 }

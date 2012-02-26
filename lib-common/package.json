@@ -1,16 +1,15 @@
 {
   "author": "",
-  "name": "server-lib",
+  "name": "lib-common",
   "version": "0.0.0",
   "repository": {
-    "url": ""
+    "type": "git",
+    "url": "git://github.com/nleush/ender-nodejs-lib-test.git"
   },
   "engines": {
     "node": "~0.6.9"
   },
-  "dependencies": {
-    "common-lib"   :  "*"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "optionalDependencies": {},
   "main": "main.js"

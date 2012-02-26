@@ -1,6 +1,6 @@
 {
   "author": "",
-  "name": "server-test",
+  "name": "test-server",
   "version": "0.0.0",
   "repository": {
     "type": "git",
@@ -9,7 +9,10 @@
   "engines": {
     "node": "~0.6.9"
   },
-  "dependencies": {},
+  "dependencies": {
+    "lib-server": "*"
+  },
   "devDependencies": {},
-  "optionalDependencies": {}
+  "optionalDependencies": {},
+  "main": "main.js"
 }
