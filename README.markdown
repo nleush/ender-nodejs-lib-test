@@ -17,30 +17,9 @@ Client side supported with Ender.
 
 All packages are not in NPM repository, so we need to manually link all dependencies.
 
-## Link packages (for local env)
+## Link packages (for local environment)
 
-    cd lib-common
-    sudo npm link
-    
-    cd ../lib-client
-    npm link lib-common
-    
-    cd ../lib-server
-    npm link lib-common
-    
-    
-    cd ../lib-client
-    sudo npm link
-    
-    cd ../test-server
-    npm link lib-server
-    
-    
-    cd ../lib-server
-    sudo npm link
-    
-    cd ../test-server
-    npm link lib-server
+    sh ./link-libs
 
 # Using Ender to compile client scripts
 
