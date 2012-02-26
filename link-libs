@@ -13,8 +13,8 @@ npm link lib-common
 cd ../lib-client
 sudo npm link
 
-cd ../test-server
-npm link lib-server
+cd ../test-client
+npm link lib-client
 
 
 cd ../lib-server
