@@ -1,7 +1,7 @@
 # What is this?
 
 This is the test of writing JavaScript library which can be used on client and server side simultaneously.
-NPM dependencies and CommonJS 'require' used.
+NPM dependencies and CommonJS `require` used.
 Server side environment expected to be NodeJS.
 Client side supported with Ender.
 
